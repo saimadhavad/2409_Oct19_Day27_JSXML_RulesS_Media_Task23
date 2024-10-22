@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  margin: 10px auto;
+  background-color: cadetblue;
+  
+}
+.images,.audio,.video {
+  display: flex;
+}
+img,video  {
+  width: 400px;
+  height: 200px;
+  object-fit: fill;
+}
+p {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+fieldset {
+  width: 500px;
+}
+legend {
+  text-align: start;
+}
+hr {
+  border: 2px solid white;
+}
